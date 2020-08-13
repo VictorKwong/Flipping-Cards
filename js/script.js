@@ -2,10 +2,10 @@ const happyFlip = {};
 
 // Start game
 happyFlip.title = function () {
-    $('mainBgm').hide();
+    $('.mainBgm').hide();
     $('.beginBtn').click(function(){
         $('.headerBgm').hide();
-        $('mainBgm').show();
+        $('.mainBgm').show();
     })
 }
 
